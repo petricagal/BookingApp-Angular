@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+  font-family: sans-serif;
+  color: #ccffff;
+  font-weight: bold;
+  margin: 40px auto auto 100px;
+}
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(#006666, #194d33);
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+
+
+.topnav .login-container button {
+  float: right;
+  background: none;
+  display: block;
+  margin: 20px 10px 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 40px;
+  outline: none;
+  color: #ccffff;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: black;
+}
+.image {
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
